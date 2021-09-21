@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="CH01B.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CH01B"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,176,0,0" Text="Please enter your name" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="26.667"/>
+        <TextBox x:Name="userName" HorizontalAlignment="Center" Margin="0,253,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-2.257,4.223" Height="34" Width="276"/>
+        <Button x:Name="OK" Content="OK" Margin="992,255,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.35,-1.537" Click="okClick"/>
+
+    </Grid>
+</Page>
